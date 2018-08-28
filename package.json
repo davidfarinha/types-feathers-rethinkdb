@@ -1,20 +1,24 @@
 {
-  "name": "@types/feathers-rethinkdb",
-  "version": "0.1.0",
+  "author": "David Andre Evans Farinha",
+  "dependencies": {
+    "@feathersjs/feathers": "^3.1.7",
+    "@types/feathersjs__feathers": "^3.0.4",
+    "@types/rethinkdb": "github:types/npm-rethinkdb",
+    "@types/rethinkdbdash": "github:types/rethinkdbdash"
+  },
   "description": "TypeScript typings for the package \"feathers-rethinkdb\"",
-  "types": "./index.d.ts",
+  "files": [
+    "./index.d.ts"
+  ],
   "keywords": [
     "feathers-rethindb",
     "feathers",
     "feathersjs",
     "typescript"
   ],
-  "author": "David Andre Evans Farinha",
   "license": "ISC",
-  "dependencies": {
-    "@feathersjs/feathers": "^3.1.7",
-    "@types/feathersjs__feathers": "^3.0.4",
-    "@types/rethinkdb": "github:types/npm-rethinkdb",
-    "@types/rethinkdbdash": "github:types/rethinkdbdash"
-  }
+  "name": "@types/feathers-rethinkdb",
+  "repository": "https://github.com/davidfarinha/types-feathers-rethinkdb",
+  "types": "./index.d.ts",
+  "version": "0.1.0"
 }
